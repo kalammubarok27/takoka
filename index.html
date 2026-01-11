@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TAKOKA - Pesan Tiket & Hotel</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <meta name="description" content="TAKOKA - Pesan tiket, hotel, dan event dengan mudah">
+<meta name="keywords" content="tiket, hotel, travel, takoka">
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">TAKOKA</div>
+    <nav>
+      <a href="#">Hotel</a>
+      <a href="#">Pesawat</a>
+      <a href="#">Kereta</a>
+      <a href="#">Event</a>
+      <a href="login.html">Masuk</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Mau Pergi Ke Mana?</h1>
+    <p>Pesan tiket & hotel dengan mudah di TAKOKA</p>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Cari kota / hotel / event">
+      <button>Cari</button>
+    </div>
+  </section>
+
+  <!-- Produk -->
+  <section class="products">
+    <h2>Rekomendasi</h2>
+
+    <div class="card-container">
+      <div class="card" data-name="hotel jakarta">
+        <h3>Hotel Jakarta</h3>
+        <p>Mulai dari Rp250.000</p>
+        <a href="detail.html?title=Hotel Jakarta&desc=Hotel nyaman di pusat kota Jakarta&price=Rp250.000">
+            <button>Detail</button>
+        </a>
+      </div>
+
+      <div class="card" data-name="tiket bali">
+        <h3>Tiket Bali</h3>
+        <p>Mulai dari Rp800.000</p>
+        <a href="detail.html?title=Tiket Bali&desc=Penerbangan ke Bali dengan harga terbaik&price=Rp800.000">
+            <button>Detail</button>
+        </a>
+      </div>
+
+      <div class="card" data-name="konser musik">
+        <h3>Konser Musik</h3>
+        <p>Mulai dari Rp150.000</p>
+        <a href="detail.html?title=Konser Musik&desc=Tiket konser musik nasional&price=Rp150.000">
+            <button>Detail</button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 TAKOKA. All rights reserved.</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
