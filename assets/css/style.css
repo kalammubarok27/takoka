@@ -162,3 +162,71 @@ footer {
   margin-top: 60px;
   color: #777;
 }
+
+/* =====================
+   RESPONSIVE MOBILE
+===================== */
+@media (max-width: 768px) {
+
+  
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+  }
+
+  .navbar nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  
+  .hero {
+    padding: 30px 15px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .hero p {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  
+  .search-box {
+    display: flex;           
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    gap: 10px;
+  }
+
+  .search-box input,
+  .search-box button {
+    width: 100%;
+    font-size: 16px; 
+  }
+
+  
+  .card-container {
+    justify-content: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  
+  footer {
+    text-align: center;
+    font-size: 13px;
+  }
+}
+
